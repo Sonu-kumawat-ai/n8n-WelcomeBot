@@ -1,6 +1,7 @@
 # n8n WelcomeBot
 
 Welcome to the **n8n WelcomeBot** project!  
+
 This automation system captures user data from a contact form, processes it using an AI model, and then automatically sends a personalized welcome email to the user’s Gmail account.
 
 This project leverages **n8n**, an open-source automation tool, and **Google Gemini Chat**, an AI model, to create a seamless experience for new users who submit a form.
@@ -29,7 +30,7 @@ This workflow consists of several key stages that automate the process of sendin
 - Once the AI generates the response, a **Gmail node** sends the personalized message directly to the user’s Gmail account.
 
 ### Workflow Diagram:
-![Workflow Diagram](file-Hk83F6GXd7WYNHpfTMvZAt.jpg)
+![Workflow Diagram](https://github.com/Sonu-kumawat-ai/n8n-WelcomeBot/blob/main/images/image2.JPG)
 
 ---
 
@@ -44,7 +45,7 @@ The contact form includes the following fields:
 - **Country**: Country dropdown (e.g., "India")
 
 ### Example Form UI:
-![Contact Form](file-Qqf94mKfShwnEcHiZ32BjT.jpg)
+![Contact Form](https://github.com/Sonu-kumawat-ai/n8n-WelcomeBot/blob/main/images/image1.JPG)
 
 When the user submits the form, the data is sent via POST to the webhook endpoint in n8n.
 
@@ -58,31 +59,31 @@ After the form is submitted:
 
 ### Example Email Content:
 
-![Email](file-Qqf94mKfShwnEcHiZ32BjT.jpg)
+![Email](https://github.com/Sonu-kumawat-ai/n8n-WelcomeBot/blob/main/images/image3.jpg)
 
 ---
 
 ## How to Run
 
-Clone the repository:
+- Clone the repository:
 ```bash
 git clone https://github.com/Sonu-kumawat-ai/n8n-WelcomeBot.git
 ```
 
-**Set up n8n**: Follow the n8n documentation to install and configure n8n on your local machine or server.
+- **Set up n8n**: Follow the n8n documentation to install and configure n8n on your local machine or server.
 
-**Configure Webhook**: Set up the webhook URL to capture form submissions and trigger the workflow.
+- **Configure Webhook**: Set up the webhook URL to capture form submissions and trigger the workflow.
 
-**Set up Gmail API**: Connect the Gmail API in n8n to send automated emails.
+- **Set up Gmail API**: Connect the Gmail API in n8n to send automated emails.
 
-**Run the Workflow**: Once everything is set up, execute the workflow and test the form submission to see the automated email being sent.
+- **Run the Workflow**: Once everything is set up, execute the workflow and test the form submission to see the automated email being sent.
 
 ---
 
 ## Technologies Used
 
-**n8n**: Open-source workflow automation tool.
+- **n8n**: Open-source workflow automation tool.
 
-**Google Gemini Chat**: AI model to generate personalized messages.
+- **Google Gemini Chat**: AI model to generate personalized messages.
 
-**Gmail API**: To send automated emails.
+- **Gmail API**: To send automated emails.
